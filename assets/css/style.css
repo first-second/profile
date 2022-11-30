@@ -440,7 +440,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -471,8 +471,18 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
-}
+}*/
 
+.skills .section-title h1 {
+  font-size: 100px;
+  color: rgb(113, 102, 102);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills .section-title .caption {
+  display: block;
+  font-size: 15px;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -481,16 +491,17 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.resume .section-title h1 {
+/*.resume .section-title h1 {
   font-size: 100px;
   color: #ddd;
   margin-top: 20px;
   margin-bottom: 20px;
-}
+}*/
 .resume .section-title .caption {
   display: block;
   font-size: 15px;
 }
+
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
