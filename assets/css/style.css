@@ -486,7 +486,7 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .section-title p {
+.resume .section-title i {
   font-size: 26px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -497,17 +497,17 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
 }*/
-.resume .section-title .caption {
+/*.resume .section-title .caption {
   display: block;
   font-size: 15px;
-}
+}*/
 
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+/*.resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
