@@ -472,7 +472,7 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.projects .row {margin: 0 -25px;}
+.projects .row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .projects .row:after {
@@ -493,9 +493,11 @@ body {
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media (max-width: 992px) {
-  #projects {
-    text-align: center;
+@media screen and (max-width: 600px) {
+  .projects .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
 /*--------------------------------------------------------------
