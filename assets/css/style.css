@@ -465,7 +465,7 @@ body {
 
 /* Float four columns side by side */
 .projects .column {
-  float: left;
+  align-items: center;
   width: 25%;
   padding: 0 10px;
 }
