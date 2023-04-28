@@ -493,11 +493,9 @@ body {
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .projects .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+@media (max-width: 992px) {
+  #projects {
+    text-align: center;
   }
 }
 /*--------------------------------------------------------------
