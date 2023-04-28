@@ -472,7 +472,7 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.projects .row {margin: 0 -40px;}
+.projects .row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .projects .row:after {
