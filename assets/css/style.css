@@ -492,7 +492,7 @@ body {
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .projects .column {
     width: 100%;
     display: block;
